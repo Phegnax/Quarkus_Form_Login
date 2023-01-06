@@ -7,10 +7,10 @@
 <body>
 <div>
     <h2>Login to your account</h2>
-    <form id="login" action="/loginResource" method="POST">
-        <input type="text" title="username" placeholder="username" name="username" />
-        <input type="password" title="passwird" placeholder="password" name="password"/>
-        <button type="submit" >Login</button>
+    <form id="login" action="j_security_check" method="POST">
+        <input type="text" title="username" placeholder="username" name="j_username" />
+        <input type="password" title="passwird" placeholder="password" name="j_password"/>
+        <button type="submit">Login</button>
     </form>
 </div>
 </body>
